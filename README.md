@@ -7,7 +7,7 @@
 <p>La base de datos esta montada en un servidor privado de Hostgator, 100% operativa<p>
 <br>
 <p>Se puede acceder al proyecto final a través de este enlace:<p>
-<a href="cac-rigotti-java-app.herokuapp.com" target="_blank">cac-rigotti-java-app.herokuapp.com</a>
+<a href="https://cac-rigotti-java-app.herokuapp.com/" target="_blank">cac-rigotti-java-app.herokuapp.com</a>
 <br>
 <p>El proyecto será mejorado y actualizado en esta misma ubicación<p>
 <br>
