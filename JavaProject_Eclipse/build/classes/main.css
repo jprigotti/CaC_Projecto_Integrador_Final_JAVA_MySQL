@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+    /*scroll-padding-top: 100px;  /*this line fixes this issue: When I click on a navbar link, it scrolls down and overlaps the title of each section  */
+}
+
+body a {
+    text-decoration: none;
+}
+
+
+.mainDiv{
+    border: 1px solid black; 
+       width: 70vw;
+        padding: 3rem;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+    
+    h1, h2, h3, h4{
+    padding: 0.5rem;
+    }

@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+    /*scroll-padding-top: 100px;  /*this line fixes this issue: When I click on a navbar link, it scrolls down and overlaps the title of each section  */
+}
+
+body a {
+    text-decoration: none;
+}
+
+.mainDiv{
+
+border: 1px solid black; 
+   width: 70vw;
+	padding: 3rem;
+    margin: 3rem;
+}
+
+/* ***********  empleadosContainer  ************** */
+.empleadosContainer {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border: 1px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empleadosContainer .mainTitle{
+
+}
+
+/* ***********  formContainer  ************** */
+.formContainer {
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+
+.formContainer .input{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: none;
+    background-color: #fff;
+}
+
+.formContainer .input:focus{
+    background-color: #ccc;
+    outline: none;
+}
+
+.formContainer .btnArea{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formContainer .btnSolid{
+cursor: pointer;;
+    width: 30%;
+    padding: 0.5rem 1rem;
+
+}
+
+

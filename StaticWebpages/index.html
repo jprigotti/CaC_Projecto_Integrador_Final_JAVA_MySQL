@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+
+    <!-- Link Fontawesome -->
+    <script src="https://kit.fontawesome.com/628afeffd4.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+
+    <div class="empleadosContainer">
+
+        <div class="mainTitle">
+            <h2> Tabla de empleados con Mysql y Java </h2>
+        </div>
+
+        <div class="tableContainer">
+
+            <div class="tableHeader">
+                <div class="tableTitle">
+                    Empleados
+                </div>
+                <div class="addEmpleado">
+                    <a href="EmpleadosController?action=new_jsp"><i class="fa-solid fa-circle-plus"></i> Agregar</a>
+                </div>
+
+            </div> <!-- closes tableHeader  -->
+
+            <div class="tableBody">
+
+                <table class="mainTable">
+
+                    <thead>
+                        <tr>
+                            <th class="DNI">DNI</th>
+                            <th class="apellido">Apellido</th>
+                            <th class="nombre">Nombre</th>
+                            <th class="numDpto center">Num Depto</th>
+                            <th class="editar center">Editar</th>
+                        </tr>
+                    </thead>
+
+                    <!-- https://stackoverflow.com/questions/22419386/servlet-send-arraylist-to-jsp-as-request-attribute -->
+
+                    <tbody>
+                    <tr>
+                        <td>29422860</td>
+                        <td>Rigotti</td>
+                        <td>Juan Pablo</td>
+                        <td class="center">11</td>
+                        <td class="center"><i class="fa-solid fa-pencil icon"></i> <i class="fa-solid fa-trash-can icon"></i> </td>
+                    </tr>
+                  
+                    <tr>
+                        <td>29422860</td>
+                        <td>Rigotti</td>
+                        <td>Juan Pablo</td>
+                        <td class="center">11</td>
+                        <td class="center"><i class="fa-solid fa-pencil icon"></i> <i class="fa-solid fa-trash-can icon"></i> </td>
+                    </tr>
+
+                    <tr>
+                        <td>29422860</td>
+                        <td>Rigotti</td>
+                        <td>Juan Pablo</td>
+                        <td class="center">11</td>
+                        <td class="center"><i class="fa-solid fa-pencil icon"></i> <i class="fa-solid fa-trash-can icon"></i> </td>
+                    </tr>
+
+                    </tr>
+                </tbody>
+                </table>
+
+            </div> <!-- closes tableBody  -->
+        </div> <!-- closes tableContainer  -->
+    </div> <!-- closes empleadosContainer -->
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+    /*scroll-padding-top: 100px;  /*this line fixes this issue: When I click on a navbar link, it scrolls down and overlaps the title of each section  */
+}
+
+body a {
+    text-decoration: none;
+}
+
+.mainDiv{
+
+    border: 1px solid black; 
+       width: 70vw;
+        padding: 3rem;
+        margin: 3rem;
+    }
+
+/* ***********  empleadosContainer  ************** */
+.empleadosContainer {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border: 1px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empleadosContainer .mainTitle{
+
+}
+
+/* ***********  tableContainer  ************** */
+.tableContainer {
+    width: 70%;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #f4f4f4;
+
+}
+
+
+/* ***********  tableHeader  ************** */
+.tableHeader {
+    padding: 0.5rem 1rem;
+    background-color: #1d3557;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.tableHeader .tableTitle {
+    color: #f1faee;
+    font-size: 1.5rem;
+}
+
+.tableHeader .addEmpleado {
+    background-color: #f1faee;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+}
+
+.tableHeader .addEmpleado:hover {
+    transform: scale(0.98);
+}
+
+.tableHeader .addEmpleado a {
+    color: #1d3557;
+    font-size: 1.3rem;
+}
+
+
+/* ***********  tableBody  ************** */
+.tableBody{
+background-color: #fff;
+padding: 2rem;
+}
+
+.tableBody .mainTable{
+    width: 100%;
+}
+
+/*Defino el ancho de la celda 100/6=14*/
+.tableBody .idEmpleado,
+.tableBody .DNI,
+.tableBody .numDpto,
+.tableBody .editar{
+    width: 15%;
+}
+
+.tableBody .apellido,
+.tableBody .nombre{
+    width: 20%;
+}
+
+
+/*Le aplico estilo al header de la tabla*/
+.tableBody th{
+    color: #457b9d;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+/*Le aplico estilo a los datos de la tabla*/
+.tableBody td{
+    color: #203644;
+    font-size: 1 rem;
+    text-align: left;
+    padding: 1rem 0;
+border-top: 1px solid #f4f4f4;
+}
+
+.tableBody .center{
+    text-align: center;
+}
+
+.tableBody .icon{
+    padding: 0 0.5rem;
+}
+
