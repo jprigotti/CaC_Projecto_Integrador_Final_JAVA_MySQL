@@ -1,4 +1,4 @@
-<h3>Proyecto integrador final<h3>
+<h3>Proyecto integrador final</h3>
 <br>
 <p>El archivo JavaProjects_Eclipse contiene el proyecto Java, con todos los archivos JSP, JAVA (html y css)<p>
 <p>Comencé a trabajar con un JS para validar el formulario pero la asociación a JSP no es igual que a HTML, queda pendiente para nuevas versiones<p>
